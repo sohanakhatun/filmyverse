@@ -32,7 +32,7 @@ const Detail = () => {
   return (
     <div className=' p-4 mt-4 flex flex-col md:flex-row items-center md:items-start w-full justify-center'>
      { loading ? <div className='h-96 flex w-full justify-center items-center'><ThreeCircles height={30} color="white" /></div> : 
-      <div className='flex flex-row'>
+      <div className='flex flex-col md:flex-row'>
       <img className='h-96 block md:sticky top-24 rounded-sm' src={details.image} />
 
       <div className='md:ml-4 ml-0 w-full md:w-1/2'>
